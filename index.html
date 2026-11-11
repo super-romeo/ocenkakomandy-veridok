@@ -8,6 +8,10 @@
 <meta name="description" content="Performance review для российских компаний: цели и KPI, оценка 360, встречи один на один и калибровка — циклы оценки идут по расписанию, без таблиц.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Оценка команды</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Оценка команды</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Оценка сотрудников без таблиц — цели, оценка 360 и встречи один на один в одном цикле</h1>
-    <p class="sub">Для компаний от 10 до 50 человек, где оценку до сих пор собирают в таблицах и письмах: цели и KPI видны каждому, цикл оценки запускается по расписанию, отзывы коллег собираются сами, а руководитель готовится к встрече один на один по истории сотрудника.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для компаний от 10 до 50 человек</p>
+      <h1 class="rise" style="--i:1" data-len="long">Оценка сотрудников без таблиц&nbsp;<span class="soft">— цели, оценка 360 и встречи один на один в одном цикле</span></h1>
+      <p class="rise" style="--i:2">Для компаний от 10 до 50 человек, где оценку до сих пор собирают в таблицах и письмах: цели и KPI видны каждому, цикл оценки запускается по расписанию, отзывы коллег собираются сами, а руководитель готовится к встрече один на один по истории сотрудника.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Оценка 360</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="248" width="48" height="48" rx="8" fill="#dfe8f7" /><text x="200" y="282" font-size="32" fill="#0a1524">Цели и KPI</text><rect x="130" y="348" width="48" height="48" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">Калибровка</text><rect x="130" y="448" width="48" height="48" rx="8" fill="#dfe8f7" /><text x="200" y="482" font-size="32" fill="#0a1524">по расписанию</text><rect x="130" y="548" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="560" width="240" height="24" rx="12" fill="#b9c3d2" /><rect x="700" y="250" width="370" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="312" font-size="32" fill="#0a1524" font-weight="600">Цели и KPI</text><rect x="740" y="360" width="280" height="44" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="740" y="424" width="280" height="44" rx="22" fill="#12397a" /><rect x="740" y="488" width="280" height="44" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="740" y="552" width="280" height="44" rx="22" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Компаний от 10</dd></div>
+      <div><dt>Что</dt><dd>Цели и KPI</dd></div>
+      <div><dt>Как</dt><dd>По расписанию</dd></div>
+      <div><dt>Доступ</dt><dd>Сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Цели и KPI</b><span>Цели компании, отдела и сотрудника, связанные между собой.</span><br><a class="btn" href="price.html" data-ev="feature_celi">Мне это нужно</a></div>
-      <div class="card"><b>Оценка 360</b><span>Самооценка, оценка руководителя и отзывы коллег в одном цикле.</span><br><a class="btn" href="price.html" data-ev="feature_ocenka">Мне это нужно</a></div>
-      <div class="card"><b>Встречи один на один</b><span>Повестка, заметки и договорённости по каждой встрече.</span><br><a class="btn" href="price.html" data-ev="feature_vstrechi">Мне это нужно</a></div>
-      <div class="card"><b>Калибровка</b><span>Сравнение оценок по команде до разговора с сотрудником.</span><br><a class="btn" href="price.html" data-ev="feature_kalibrovka">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Цели и KPI</text><line x1="140" y1="500" x2="660" y2="500" stroke="#b9c3d2" stroke-width="4" /><rect x="160" y="380" width="70" height="120" rx="8" fill="#dfe8f7" /><rect x="280" y="320" width="70" height="180" rx="8" fill="#b9c3d2" /><rect x="400" y="410" width="70" height="90" rx="8" fill="#12397a" /><rect x="520" y="280" width="70" height="220" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Цели и KPI</h3><p>Цели компании, отдела и сотрудника, связанные между собой.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_celi">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Оценка 360</text><circle cx="280" cy="260" r="36" fill="#dfe8f7" /><circle cx="520" cy="260" r="36" fill="#b9c3d2" /><ellipse cx="280" cy="360" rx="78" ry="34" fill="#dfe8f7" /><ellipse cx="520" cy="360" rx="78" ry="34" fill="#dde2ea" /><rect x="160" y="430" width="480" height="70" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="454" width="180" height="22" rx="8" fill="#dde2ea" /><rect x="400" y="454" width="140" height="22" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Оценка 360</h3><p>Самооценка, оценка руководителя и отзывы коллег в одном цикле.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_ocenka">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Встречи один на один</text><rect x="140" y="210" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="210" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="210" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="210" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="300" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="300" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="300" width="90" height="64" rx="10" fill="#12397a" /><rect x="500" y="300" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="390" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="390" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="390" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="390" width="90" height="64" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Встречи один на один</h3><p>Повестка, заметки и договорённости по каждой встрече.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_vstrechi">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Калибровка</text><rect x="120" y="210" width="240" height="270" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="210" width="240" height="270" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><line x1="360" y1="250" x2="440" y2="250" stroke="#b9c3d2" stroke-width="3" /><rect x="144" y="240" width="150" height="16" rx="6" fill="#dde2ea" /><rect x="464" y="240" width="130" height="16" rx="6" fill="#b9c3d2" /><line x1="360" y1="310" x2="440" y2="310" stroke="#b9c3d2" stroke-width="3" /><rect x="144" y="300" width="150" height="16" rx="6" fill="#dde2ea" /><rect x="464" y="300" width="130" height="16" rx="6" fill="#b9c3d2" /><line x1="360" y1="370" x2="440" y2="370" stroke="#b9c3d2" stroke-width="3" /><rect x="144" y="360" width="150" height="16" rx="6" fill="#dde2ea" /><rect x="464" y="360" width="130" height="16" rx="6" fill="#b9c3d2" /><line x1="150" y1="430" x2="196" y2="468" stroke="#12397a" stroke-width="4" /><line x1="196" y1="430" x2="150" y2="468" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Калибровка</h3><p>Сравнение оценок по команде до разговора с сотрудником.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kalibrovka">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">IT-компания на 35 человек раз в полгода проводит оценку: раньше это были таблицы, десятки писем и две недели напоминаний. Теперь цикл стартует по расписанию, каждый получает свои анкеты, отзывы коллег собираются сами, а руководители на калибровке видят оценки всей команды рядом и приходят на итоговую встречу с готовой историей целей и договорённостей.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>IT-компания на 35 человек раз в полгода проводит оценку: раньше это были таблицы, десятки писем и две недели напоминаний. Теперь цикл стартует по расписанию, каждый получает свои анкеты, отзывы коллег собираются сами, а руководители на калибровке видят оценки всей команды рядом и приходят на итоговую встречу с готовой историей целей и договорённостей.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="240" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">раз в полгода</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="240" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">свои анкеты</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="240" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">всей команды</text><rect x="120" y="320" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" fill="#0a1524" font-weight="600">итоговую встречу</text><rect x="170" y="470" width="64" height="64" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="470" width="64" height="64" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="470" width="64" height="64" rx="12" fill="#12397a" /><rect x="440" y="470" width="64" height="64" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="470" width="64" height="64" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><text x="170" y="660" font-size="30" fill="#566174">готовой историей</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Когда в компании 10–50 человек, оценка сотрудников обычно держится на энтузиазме одного HR или руководителя. Цели живут в таблице, отзывы коллег собираются письмами, анкеты рассылаются вручную, а к итоговому разговору руководитель вспоминает, что было полгода назад. Цикл растягивается на недели, часть анкет так и не приходит, и сотрудники перестают верить, что оценка что-то значит.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Когда в компании 10–50 человек, оценка сотрудников обычно держится на энтузиазме одного HR или руководителя. Цели живут в таблице, отзывы коллег собираются письмами, анкеты рассылаются вручную, а к итоговому разговору руководитель вспоминает, что было полгода назад. Цикл растягивается на недели, часть анкет так и не приходит, и сотрудники перестают верить, что оценка что-то значит.</p>
     <p>Сервис собирает весь цикл развития сотрудника в одном месте: цели, оценку, встречи один на один и опросы. Каждая часть связана с другими, поэтому к итоговой оценке уже есть всё, на что можно опереться.</p>
     <p>Цели ставятся на уровне компании, отдела и сотрудника и связываются между собой: видно, как цель каждого человека помогает цели команды. Для целей можно задать KPI и отмечать прогресс по ходу квартала, а не только в конце.</p>
     <p>Цикл оценки запускается по расписанию — раз в квартал, полгода или год. Каждый участник получает свои анкеты: самооценку, оценку руководителя, отзывы коллег по методу 360. Кого позвать в отзыв, предлагает сотрудник и утверждает руководитель. Сервис сам напоминает тем, кто не заполнил анкету, а HR видит, сколько анкет собрано.</p>
@@ -106,31 +140,34 @@
     <p>В сервисе хранятся персональные данные сотрудников, поэтому доступ разграничен по ролям: сотрудник видит своё, руководитель — свою команду, HR — всю компанию. Каждое изменение оценки сохраняется с именем того, кто его внёс.</p>
     <p>Сервис работает в браузере, ничего устанавливать не нужно. Сотрудников можно загрузить списком, а структуру отделов — завести за один вечер. Оплата помесячно, по числу сотрудников.</p>
     <p>Сервис рассчитан на российские компании от 10 до 50 человек, которые хотят проводить оценку регулярно, а не раз в год по таблице. Сейчас он в подготовке: сначала мы проверяем, нужен ли он компаниям.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Что входит в сервис?</h3>
-    <p>Цели и KPI, циклы оценки с самооценкой, оценкой руководителя и 360, калибровка, встречи один на один и опросы вовлечённости.</p>
-    <h3>Как часто можно проводить оценку?</h3>
-    <p>Как удобно компании: раз в квартал, полгода или год; цикл запускается по расписанию.</p>
-    <h3>Кто видит оценки?</h3>
-    <p>Сотрудник видит своё, руководитель — свою команду, HR — всю компанию.</p>
-    <h3>Нужно ли строить систему оценки с нуля?</h3>
-    <p>Нет. Первый цикл можно запустить на готовых шаблонах анкет и компетенций.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он компаниям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Что входит в сервис?</h3><p>Цели и KPI, циклы оценки с самооценкой, оценкой руководителя и 360, калибровка, встречи один на один и опросы вовлечённости.</p></div>
+      <div class="split flip"><h3>Как часто можно проводить оценку?</h3><p>Как удобно компании: раз в квартал, полгода или год; цикл запускается по расписанию.</p></div>
+      <div class="split flip"><h3>Кто видит оценки?</h3><p>Сотрудник видит своё, руководитель — свою команду, HR — всю компанию.</p></div>
+      <div class="split flip"><h3>Нужно ли строить систему оценки с нуля?</h3><p>Нет. Первый цикл можно запустить на готовых шаблонах анкет и компетенций.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он компаниям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Расскажите о своей команде</h2>
-    <p><label>Сколько сотрудников в компании<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>До 10</option><option>10–30</option><option>31–50</option><option>Больше 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Расскажите о своей команде</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько сотрудников в компании<select data-ev-focus="form_start"><option value="">— выберите —</option><option>До 10</option><option>10–30</option><option>31–50</option><option>Больше 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Оценка команды</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Сервис помогает проводить оценку и встречи с сотрудниками. Решения о сотрудниках принимает компания.</p>
+  <p>Сервис помогает проводить оценку и встречи с сотрудниками. Решения о сотрудниках принимает компания.</p>
 </div></footer>
 
 </body>
